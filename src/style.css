@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/vfx5pdy.css");
+
+/* Home Page */
+
+#navbar {
+  font-size: 20px;
+  font-family:proxima-nova;
+  color: #696969;
+  margin-top: 28px;
+  text-align: center;
+}
+.navbarText {
+  margin:45px;
+}
+.navbarText:hover {
+color:#92E3A9;
+}
