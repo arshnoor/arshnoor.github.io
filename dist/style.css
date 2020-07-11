@@ -15,7 +15,7 @@
   font-size: 20px;
   font-family:proxima-nova;
   color: #696969;
-  margin-top: -58px;
+  margin-top: -165px;
   text-align: center;
   position:fixed;
   width:100%; 
@@ -33,17 +33,19 @@ color: #92E3A9;
 cursor: pointer;
 }
 
-.video1{
+#video1{
     margin-left: 800px;
-    margin-top: 100px;
+    margin-top: 215px;
     width: 600px;
     height: auto;
-    margin-bottom:50px;
+    margin-bottom:-200px;
 }
 
-video {
+/*video {
 	margin-top: 100px;
-}
+  width: 500px;
+  margin-left:-50px;
+}*/
 
 #intro {
   font-family:"PT Sans Caption";
@@ -83,13 +85,131 @@ video {
 	margin-left: 800px;
 
 }
-.video2{
-    margin-left: 150px;
-    margin-top: -725px;
+#video2 {
+    margin-left: 120px;
+    margin-top: -570px;
     width: 600px;
     height: auto;
-
+    margin-bottom:-200px;
 }
 
 /*Extracurriculars Page*/
+
+#circle1 {
+  height: 250px;
+  width: 250px;
+  background-color:#DCF9E4;
+  border-radius: 50%;
+  display:inline-grid;
+  margin-top:200px;
+  margin-left: -60px;
+}
+
+#circle2 {
+  height: 250px;
+  width: 250px;
+  background-color:#C2F4D1;
+  border-radius: 50%;
+  display:inline-grid;
+  margin-top:200px;
+  margin-left: 40px;
+}
+
+#circle3 {
+  height: 250px;
+  width: 250px;
+  background-color:#ABEABD;
+  border-radius: 50%;
+  display:inline-grid;
+  margin-top: -300px;
+  margin-right: -840px;
+  margin-left:40px;
+}
+
+#circle4 {
+  height: 250px;
+  width: 250px;
+  background-color:#ABEABD;
+  border-radius: 50%;
+  display:inline-grid;
+  margin-top:200px;
+  margin-bottom: -300px;
+}
+
+#circle5 {
+  height: 250px;
+  width: 250px;
+  background-color:#C2F4D1;
+  border-radius: 50%;
+  display:inline-grid;
+  margin-top:200px;
+  margin-bottom: -300px;
+  margin-left: 40px;
+}
+
+#circle6 {
+  height: 250px;
+  width: 250px;
+  background-color:#DCF9E4;
+  border-radius: 50%;
+  display:inline-grid;
+  margin-bottom: -285px;
+  margin-left:530px;
+}
+
+#video3 {
+    margin-left: 800px;
+    margin-top: -265px;
+    width: 250px;
+    height: 250px;
+    margin-bottom:-200px;
+  }
+
+  /*Projects Page*/
+#block1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  background-color: #DEF7E5;
+  display: grid;
+  margin-top: 200px;
+  margin-left: -465px;
+}
+
+#block2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  background-color: #C8F1D4;
+  display: grid;
+  margin-top: -250px;
+  margin-left: -150px;
+}
+
+#block3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  background-color: #B3EBC3;
+  display: grid;
+  margin-top: -250px;
+  margin-left: 165px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
