@@ -166,7 +166,7 @@ cursor: pointer;
   }
 
   /*Projects Page*/
-#block1 {
+/*#block1 {
   width: 250px;
   height: 250px;
   border-radius: 20%;
@@ -196,20 +196,111 @@ cursor: pointer;
   margin-left: 165px;
 }
 
+#block4 {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  background-color: black;
+  display: grid;
+  margin-top: 100px;
+  margin-left: -465px;
+}
 
+#block5 {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  background-color: green;
+  display: grid;
+  margin-top: -150px;
+  margin-left: -150px;
+}
 
+#block6 {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  background-color: yellow;
+  display: grid;
+  margin-top: -150px;
+  margin-left: 165px;
+}*/
 
+.projects {
+    font-family: Courier, monospace;
+  display: inline-block;
+  margin-top: 240px;
+  margin-left: -100px;
+}
 
+.projectsText {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+  animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
 
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
 
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #ABEABD; 
+    }
+}
 
+#video4 {
+    margin-left: -825px;
+    margin-top: -95px;
+    width: 250px;
+    height: 250px;
+    margin-bottom:-200px;
+  }
 
+/*About Page*/
 
+#video5 {
+    margin-left: 700px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    margin-bottom:-200px;
+  }
 
+#downloadButton {
+  height:50px;
+  width:250px;
+  border-radius: 15%;
+  background-color: #ABEABD;
+  margin-top: -360px;
+  margin-left:-600px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "PT Sans Caption";
+  color: white;
+}
 
-
-
-
-
-
-
+#downloadButton:hover {
+color:black;
+cursor:pointer;
+}
+/*
+#resume {
+  margin-left: -50px;
+  font-family: "PT Sans Caption";
+  color: black;
+}*/
