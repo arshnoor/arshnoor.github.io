@@ -1,29 +1,42 @@
 @import url("https://use.typekit.net/vfx5pdy.css");
-
-/* Home Page */
-
+ 
+/* Navigation Bar */
 #navbar {
+  height: 80px;
   font-size: 20px;
   font-family:proxima-nova;
   color: #696969;
-  margin-top: -165px;
+  padding-top: 50px;
+  margin-top: -10px;
   text-align: center;
   position:fixed;
-  width:100%; 
-  height:35px;  
-  opacity: 90%;
+  width:100%;
   margin-left: -7px;
+  background-color: rgba(255, 255, 255, 0.9);
 
 }
 .navbarText {
   margin:25px;
+  height: 50px;
 }
-
-.navbarText:hover {
+ 
+.navbarText a {
+  text-decoration: none;
+  color: black;
+}
+ 
+.navbarText: hover {
   color: #92E3A9;
   cursor: pointer;
 }
-
+ 
+/* Home Page */
+ 
+#home {
+  height: 800px;
+  overflow: hidden;
+}
+ 
 #video1{
   margin-left: 800px;
   margin-top: 215px;
@@ -31,7 +44,7 @@
   height: auto;
   margin-bottom:-200px;
 }
-
+ 
 #intro {
   font-family:"PT Sans Caption";
   font-size: 25px;
@@ -40,7 +53,7 @@
   margin-top:-450px;
   margin-left:220px;
 }
-
+ 
 #firstName {
   font-family:"PT Sans Caption";
   font-size: 70px;
@@ -49,7 +62,7 @@
   margin-left:240px;
   letter-spacing: 5px;
 }
-
+ 
 #lastName {
   font-family:"PT Sans Caption";
   font-size: 70px;
@@ -58,25 +71,31 @@
   margin-left:350px;
   letter-spacing: 5px;
 }
-
+ 
 /*About Page*/
-
+ 
 #about {
-  margin-bottom: 400px;
-  height: 100px;
-  margin-top:200px;
+  height: 1000px;
+  overflow: hidden;
 }
-
+ 
 #aboutBox {
-	border-radius: 20%;
-	background-color:#DEF7E5;
-	width:500px;
-	height: 500px;
-	margin-top:330px;
-	margin-bottom: 110px;
-	margin-left: 800px;
-
+  margin-top: 200px;
+  border-radius: 20%;
+  background-color:#DEF7E5;
+  width:500px;
+  height: 500px;
+  margin-left: 800px;
+  font-family: "PT Sans Caption";
+  font-size: 15px;
+  text-align:center;
+  line-height:32px;
 }
+
+#aboutText {
+  padding: 3% 7%;
+}
+
 #video2 {
   margin-left: 120px;
   margin-top: -610px;
@@ -84,14 +103,14 @@
   height: auto;
   margin-bottom:-200px;
 }
-
+ 
 /*Extracurriculars Page*/
-
+ 
 #exc {
 margin-top:300px;
 margin-left: 100px;
 }
-
+ 
 #circle1 {
   height: 250px;
   width: 250px;
@@ -101,7 +120,7 @@ margin-left: 100px;
   margin-top:200px;
   margin-left: -60px;
 }
-
+ 
 #circle2 {
   height: 250px;
   width: 250px;
@@ -111,7 +130,7 @@ margin-left: 100px;
   margin-top:200px;
   margin-left: 40px;
 }
-
+ 
 #circle3 {
   height: 250px;
   width: 250px;
@@ -122,7 +141,7 @@ margin-left: 100px;
   margin-right: -840px;
   margin-left:40px;
 }
-
+ 
 #circle4 {
   height: 250px;
   width: 250px;
@@ -132,7 +151,7 @@ margin-left: 100px;
   margin-top:200px;
   margin-bottom: -300px;
 }
-
+ 
 #circle5 {
   height: 250px;
   width: 250px;
@@ -143,7 +162,7 @@ margin-left: 100px;
   margin-bottom: -300px;
   margin-left: 40px;
 }
-
+ 
 #circle6 {
   height: 250px;
   width: 250px;
@@ -153,7 +172,7 @@ margin-left: 100px;
   margin-bottom: -300px;
   margin-left:30px;
 }
-
+ 
 #video3 {
   margin-left: 800px;
   margin-top: -265px;
@@ -161,21 +180,21 @@ margin-left: 100px;
   height: 250px;
   margin-bottom:-200px;
   }
-
+ 
   /*Projects Page*/
-
+ 
 #projectsPage {
   margin-top: 540px;
   margin-left: 950px;
 }
-
+ 
 .projects {
   font-family: Courier, monospace;
   display: inline-block;
   margin-top: 240px;
   margin-left: -100px;
 }
-
+ 
 .projectsText {
   display: inline-block;
   overflow: hidden;
@@ -187,25 +206,25 @@ margin-left: 100px;
   border-right: 4px solid orange;
   box-sizing: border-box;
 }
-
+ 
 @keyframes typing {
-    from { 
-        width: 0% 
+    from {
+        width: 0%
     }
-    to { 
-        width: 100% 
+    to {
+        width: 100%
     }
 }
-
+ 
 @keyframes blink {
-    from, to { 
-        border-color: transparent 
+    from, to {
+        border-color: transparent
     }
-    50% { 
-        border-color: #ABEABD; 
+    50% {
+        border-color: #ABEABD;
     }
 }
-
+ 
 #video4 {
   margin-left: -825px;
   margin-top: -95px;
@@ -213,15 +232,15 @@ margin-left: 100px;
   height: 250px;
   margin-bottom:-200px;
   }
-
-/*About Page*/
-
+ 
+/*Contact Page*/
+ 
 #contact {
   margin-top: 600px;
   margin-left:200px;
   margin-bottom:400px;
 }
-
+ 
 #video5 {
   margin-left: 500px;
   margin-top: 50px;
@@ -229,7 +248,7 @@ margin-left: 100px;
   height: 250px;
   margin-bottom:-200px;
   }
-
+ 
 #downloadButton {
   height:50px;
   width:250px;
@@ -242,7 +261,7 @@ margin-left: 100px;
   font-family: "PT Sans Caption";
   color: white;
 }
-
+ 
 #downloadButton:hover {
 color:black;
 cursor:pointer;
